@@ -1,7 +1,13 @@
 <?php
+//Database connected
+include ("../resources/config.php");
+?>
+
+<?php
 //header Connection link
 include ("../resources/templates/front/header.php");
 ?>
+
 
 <!--  Slider Content-->
 
