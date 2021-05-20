@@ -12,217 +12,31 @@ include ("../resources/templates/front/SliderContent.php");
 
 <!-- Featured Categories-->
 
-        <div class="Categories">
-          <div class="small-container-2">
-        <div class="row">
-          <div class="col-3">
-            <img src="images/category-1.jpg" alt="">
-          </div>
-          <div class="col-3">
-            <img src="images/category-2.jpg" alt="">
-          </div>
-          <div class="col-3">
-            <img src="images/category-3.jpg" alt="">
-          </div>
-        </div>
-        </div>
-        </div>
+<?php
+//Slider Future Categories
+include ("../resources/templates/front/FutureCategories.php");
+?>
 
-        <!-- Featured Products-->
-                <div class="small-container">
-                      <h2 class="title">Featured Products</h2>
-                      <div class="row">
-
-                        <div class="col-4">
-                          <img src="images/product-1.jpg" alt="">
-                          <h4>Red Prointed T-Shirt</h4>
-                          <div class="rating">
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#10032;</i>
-                          </div>
-                          <p> Price: $50.00</p>
-                        </div>
-
-                        <div class="col-4">
-                          <img src="images/product-2.jpg" alt="">
-                          <h4>Red Prointed T-Shirt</h4>
-                          <div class="rating">
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#10032;</i>
-                          </div>
-                          <p> Price: $50.00</p>
-                        </div>
-
-                        <div class="col-4">
-                          <img src="images/product-3.jpg" alt="">
-                          <h4>Red Prointed T-Shirt</h4>
-                          <div class="rating">
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#10032;</i>
-                          </div>
-                          <p> Price: $50.00</p>
-                        </div>
-                        <div class="col-4">
-                          <img src="images/product-4.jpg" alt="">
-                          <h4>Red Prointed T-Shirt</h4>
-                          <div class="rating">
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#9733;</i>
-                          <i class="fa">&#10032;</i>
-                          </div>
-                          <p> Price: $50.00</p>
-                        </div>
-
-                      </div>
-                        <h2 class="title">Letest Products</h2>
-
-                        <div class="row">
-
-                          <div class="col-4">
-                            <img src="images/product-5.jpg" alt="">
-                            <h4>Red Prointed T-Shirt</h4>
-                            <div class="rating">
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#10032;</i>
-                            </div>
-                            <p> Price: $50.00</p>
-                          </div>
-
-                          <div class="col-4">
-                            <img src="images/product-6.jpg" alt="">
-                            <h4>Red Prointed T-Shirt</h4>
-                            <div class="rating">
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#10032;</i>
-                            </div>
-                            <p> Price: $50.00</p>
-                          </div>
-
-                          <div class="col-4">
-                            <img src="images/product-7.jpg" alt="">
-                            <h4>Red Prointed T-Shirt</h4>
-                            <div class="rating">
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#10032;</i>
-                            </div>
-                            <p> Price: $50.00</p>
-                          </div>
-                          <div class="col-4">
-                            <img src="images/product-8.jpg" alt="">
-                            <h4>Red Prointed T-Shirt</h4>
-                            <div class="rating">
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#10032;</i>
-                            </div>
-                            <p> Price: $50.00</p>
-                          </div>
-
-                        </div>
-
-                        <div class="row">
-
-                          <div class="col-4">
-                            <img src="images/product-9.jpg" alt="">
-                            <h4>Red Prointed T-Shirt</h4>
-                            <div class="rating">
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#10032;</i>
-                            </div>
-                            <p> Price: $50.00</p>
-                          </div>
-
-                          <div class="col-4">
-                            <img src="images/product-10.jpg" alt="">
-                            <h4>Red Prointed T-Shirt</h4>
-                            <div class="rating">
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#10032;</i>
-                            </div>
-                            <p> Price: $50.00</p>
-                          </div>
-
-                          <div class="col-4">
-                            <img src="images/product-11.jpg" alt="">
-                            <h4>Red Prointed T-Shirt</h4>
-                            <div class="rating">
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#10032;</i>
-                            </div>
-                            <p> Price: $50.00</p>
-                          </div>
-                          <div class="col-4">
-                            <img src="images/product-12.jpg" alt="">
-                            <h4>Red Prointed T-Shirt</h4>
-                            <div class="rating">
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#9733;</i>
-                            <i class="fa">&#10032;</i>
-                            </div>
-                            <p> Price: $50.00</p>
-                          </div>
-
-                        </div>
-                </div>
-
-
+<!-- Featured Products-->
+  <div class="small-container">
+    <?php
+    //Futured Products
+    include ("../resources/templates/front/FutureProducts.php");
+    ?>
+      <!-- Letest Products-->
+  <?php
+  //Latested Products
+  include ("../resources/templates/front/LatestedProduct.php");
+  ?>
+ </div>
 
 <!-- offer-->
+<?php
+//Futured Products
+include ("../resources/templates/front/OfferPage.php");
+?>
 
-      <div class="offer">
-        <div class="small-container">
-          <div class="row">
-
-            <div class="col-2">
-            <img src="images/exclusive.png" alt="" class="offer-img">
-            </div>
-
-            <div class="col-2">
-              <p>Nice exclusive products</p>
-              <h1>Red T-shirt Offer</h1>
-              <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis neque consequat, varius neque vitae,</small>
-              <br>
-              <a href="#" class="btn"> Shop Now &#8594;</a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Testimonial-->
+  <!-- Testimonial-->
       <div class="testimonial">
         <div class="small-container">
           <div class="row">
