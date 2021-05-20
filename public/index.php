@@ -32,81 +32,20 @@ include ("../resources/templates/front/FutureCategories.php");
 
 <!-- offer-->
 <?php
-//Futured Products
+//Offer
 include ("../resources/templates/front/OfferPage.php");
 ?>
 
   <!-- Testimonial-->
-      <div class="testimonial">
-        <div class="small-container">
-          <div class="row">
-            <div class="col-3">
-              <img src="images/user-1.png" alt="">
-              <h3>John Smith</h3>
-              <div class="rating">
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#10032;</i>
-              </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-            </div>
-
-            <div class="col-3">
-              <img src="images/user-2.png" alt="">
-              <h3>John Smith</h3>
-              <div class="rating">
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#10032;</i>
-              </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-            </div>
-
-            <div class="col-3">
-              <img src="images/user-3.png" alt="">
-              <h3>John Smith</h3>
-              <div class="rating">
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#9733;</i>
-              <i class="fa">&#10032;</i>
-              </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
+  <?php
+  //Testimonial
+  include ("../resources/templates/front/TestimonialPage.php");
+  ?>
   <!-- Brand-->
-<div class="brands">
-<div class="small-container">
-  <div class="row">
-    <div class="col-5">
-      <img src="images/logo-godrej.png" alt="">
-    </div>
-    <div class="col-5">
-      <img src="images/logo-oppo.png" alt="">
-    </div>
-    <div class="col-5">
-      <img src="images/logo-coca-cola.png" alt="">
-    </div>
-    <div class="col-5">
-      <img src="images/logo-paypal.png" alt="">
-    </div>
-    <div class="col-5">
-      <img src="images/logo-philips.png" alt="">
-    </div>
-  </div>
-</div>
-
-</div>
-
+  <?php
+  //Testimonial
+  include ("../resources/templates/front/Brand.php");
+  ?>
 <!-- footer-->
 <?php
 //header Connection link
