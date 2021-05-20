@@ -1,5 +1,5 @@
 <nav class="navbar">
-<div class="brand-title"><img src="images/tpsellc.png" alt=""></div>
+<div class="brand-title"><a href="index.php"><img src="images/tpsellc.png" alt=""></a></div>
 
   <div class="dropdown-fix">
   <div class="dropdown">
@@ -25,7 +25,7 @@
     <li><a href="#">Products</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Contact</a></li>
-    <li><a href="#">Login</a></li>
+    <li><a href="account.php">Login</a></li>
     <li><a href="#"><img  src="images/cart.png" alt=""  class="menu-icon"></a></li>
   </ul>
 </div>
