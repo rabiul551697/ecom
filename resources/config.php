@@ -16,5 +16,8 @@ defined ("DB_NAME") ? null : define ("DB_NAME", "ecom_dbs");
 
 $connection = mysqli_connect (DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
+if(!$connection){
+  echo "QUERY FILED";
+}
 
  ?>
