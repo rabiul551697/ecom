@@ -26,29 +26,4 @@
     <p> Price: &#2547; 50.00</p>
   </div>
 
-  <div class="col-4">
-    <img src="images/product-3.jpg" alt="">
-    <h4>Red Prointed T-Shirt</h4>
-    <div class="rating">
-    <i class="fa">&#9733;</i>
-    <i class="fa">&#9733;</i>
-    <i class="fa">&#9733;</i>
-    <i class="fa">&#9733;</i>
-    <i class="fa">&#10032;</i>
-    </div>
-    <p> Price: &#2547; 50.00</p>
-  </div>
-  <div class="col-4">
-    <img src="images/product-4.jpg" alt="">
-    <h4>Red Prointed T-Shirt</h4>
-    <div class="rating">
-    <i class="fa">&#9733;</i>
-    <i class="fa">&#9733;</i>
-    <i class="fa">&#9733;</i>
-    <i class="fa">&#9733;</i>
-    <i class="fa">&#10032;</i>
-    </div>
-    <p> Price: &#2547; 50.00</p>
-  </div>
-
 </div>
