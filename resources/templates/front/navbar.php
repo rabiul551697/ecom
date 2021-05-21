@@ -5,10 +5,22 @@
   <div class="dropdown">
   <button class="dropbtn">All Categories</button>
   <div class="dropdown-content">
-  <a href="#">Pant</a>
-  <a href="#">T-shirt</a>
-  <a href="#">Desktop</a>
-  <a href="#">Mobile</a>
+
+<?php
+//Categories php
+$query = "SELECT * FROM categories";
+$cat_query = mysqli_query ($connection,$query);
+if (!$cat_query) {
+       die ("QUERY FAILED" . mysqli_error ($connection));
+     }
+while ($row = mysqli_fetch_array($cat_query)) {
+$cat_id = $row ['cat_id'];
+$cat_title = $row ['cat_title'];
+
+echo "<a href=''>{$cat_title}</a>";
+}
+ ?>
+
   </div>
 </div>
 </div>
