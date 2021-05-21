@@ -10,7 +10,7 @@
     <i class="fa">&#9733;</i>
     <i class="fa">&#10032;</i>
     </div>
-    <p> Price: $50.00</p>
+    <p> Price: &#2547; 50.00</p>
   </div>
 
   <div class="col-4">
@@ -23,7 +23,7 @@
     <i class="fa">&#9733;</i>
     <i class="fa">&#10032;</i>
     </div>
-    <p> Price: $50.00</p>
+    <p> Price: &#2547; 50.00</p>
   </div>
 
   <div class="col-4">
@@ -36,7 +36,7 @@
     <i class="fa">&#9733;</i>
     <i class="fa">&#10032;</i>
     </div>
-    <p> Price: $50.00</p>
+    <p> Price: &#2547; 50.00</p>
   </div>
   <div class="col-4">
     <img src="images/product-4.jpg" alt="">
@@ -48,7 +48,7 @@
     <i class="fa">&#9733;</i>
     <i class="fa">&#10032;</i>
     </div>
-    <p> Price: $50.00</p>
+    <p> Price: &#2547; 50.00</p>
   </div>
 
 </div>
