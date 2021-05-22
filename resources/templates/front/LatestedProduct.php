@@ -22,7 +22,7 @@ $product_price       = $row ['product_price'];
     <img src="images/<?php echo $product_img;?>" alt="">
     <h4 style="color:#ff523b;"><?php echo $product_title; ?></h4>
     <p><?php echo $product_description; ?></p>
-    <h3 > Price: &#2547; <?php echo $product_price; ?></h3>
+    <h3> Price: &#2547; <?php echo $product_price; ?></h3>
     <div class="rating">
     <i class="fa">&#9733;</i>
     <i class="fa">&#9733;</i>
