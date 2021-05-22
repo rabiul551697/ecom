@@ -27,7 +27,7 @@ include ("../resources/templates/front/FutureCategories.php");
   <div class="small-container">
     <?php
     //Futured Products
-    include ("../resources/templates/front/FutureProducts.php");
+    //include ("../resources/templates/front/FutureProducts.php");
     ?>
       <!-- Letest Products-->
   <?php

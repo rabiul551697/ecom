@@ -19,10 +19,11 @@ $product_price       = $row ['product_price'];
  ?>
 
   <div class="col-4">
-    <img src="images/<?php echo $product_img;?>" alt="">
+    <a href="product_details.php?id='<?php echo $product_id; ?>'">
+    <img  src="images/<?php echo $product_img;?>" alt="">
     <h4 style="color:#ff523b;"><?php echo $product_title; ?></h4>
     <p><?php echo $product_description; ?></p>
-    <h3> Price: &#2547; <?php echo $product_price; ?></h3>
+    <h4> Price: &#2547; <?php echo $product_price; ?></h4>
     <div class="rating">
     <i class="fa">&#9733;</i>
     <i class="fa">&#9733;</i>
@@ -31,6 +32,7 @@ $product_price       = $row ['product_price'];
     <i class="fa">&#10032;</i>
     <span style="padding-left:10px; color:#ff523b; font-weight:bold;"> 12 reviews</span>
     </div>
+    </a>
   </div>
 <?php
 }

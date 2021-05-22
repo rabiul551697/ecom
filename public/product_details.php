@@ -10,31 +10,51 @@ include ("../resources/templates/front/header.php");
 <div class="small-container single-product">
 
     <div class="row">
+
+      <?php
+
+      if (isset($_GET['id'])){
+      $the_product_id = $_GET['id'];
+        }
+      $query = "SELECT * FROM products WHERE product_id = ($the_product_id)";
+      $the_product_query = mysqli_query ($connection,$query);
+      while ($row = mysqli_fetch_assoc($the_product_query)) {
+      $product_id          = $row ['product_id'];
+      $product_cat_id      = $row ['product_cat_id'];
+      $product_title       = $row ['product_title'];
+      $product_img         = $row ['product_img'];
+      $product_img2         = $row ['product_img2'];
+      $product_img3         = $row ['product_img3'];
+      $product_img4         = $row ['product_img4'];
+      $product_description = $row ['product_description'];
+      $product_price       = $row ['product_price'];
+
+    ?>
+
     <div class="col-2">
-    <img src="images/gallery-1.jpg" alt="" width= "100%" id="ProductImg">
+    <img src="images/<?php echo $product_img; ?>" alt="" width= "100%" id="ProductImg">
     <div class="small-img-row">
       <div class="small-img-col">
-        <img src="images/gallery-1.jpg" alt="" class="small-img" width="100%">
+        <img src="images/<?php echo $product_img; ?>" alt="" class="small-img" width="100%">
       </div>
 
       <div class="small-img-col">
-        <img src="images/gallery-2.jpg" alt="" class="small-img" width="100%">
+        <img src="images/<?php echo $product_img2; ?>" alt="" class="small-img" width="100%">
       </div>
 
       <div class="small-img-col">
-        <img src="images/gallery-3.jpg" alt="" class="small-img" width="100%">
+        <img src="images/<?php echo $product_img3; ?>" alt="" class="small-img" width="100%">
       </div>
 
       <div class="small-img-col">
-        <img src="images/gallery-4.jpg" alt="" class="small-img" width="100%">
+        <img src="images/<?php echo $product_img4; ?>" alt="" class="small-img" width="100%">
       </div>
     </div>
     </div>
 
     <div class="col-2">
-      <p>Home T-Shirt</p>
-      <h1>Read Print T-shirt</h1>
-      <h4>$50.00</h4>
+      <h1><?php echo $product_title; ?></h1>
+      <h4>Price: &#2547; <?php echo $product_price; ?></h4>
       <select>
         <option value="">Select Option</option>
         <option value="">XX</option>
@@ -44,10 +64,15 @@ include ("../resources/templates/front/header.php");
       </select>
       <input type="number" name="" value="">
       <a href="" class="btn">Add To Cart</a>
-      <h3>Products</h3>
+      <h3>Product Description</h3>
       <br>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+      <p><?php echo $product_description; ?></p>
     </div>
+
+    <?php
+  }
+     ?>
+
     </div>
 </div>
 

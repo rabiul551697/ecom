@@ -17,7 +17,7 @@ while ($row = mysqli_fetch_array($cat_query)) {
 $cat_id = $row ['cat_id'];
 $cat_title = $row ['cat_title'];
 
-echo "<a href=''>{$cat_title}</a>";
+echo "<a href='categories.php?CatId={$cat_id}'>{$cat_title}</a>";
 }
  ?>
 
