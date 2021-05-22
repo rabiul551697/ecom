@@ -13,7 +13,7 @@ $product_id          = $row ['product_id'];
 $product_cat_id      = $row ['product_cat_id'];
 $product_title       = $row ['product_title'];
 $product_img         = $row ['product_img'];
-$product_description = $row ['product_description'];
+$product_description = substr($row ['product_description'],0,30);
 $product_price       = $row ['product_price'];
 
  ?>

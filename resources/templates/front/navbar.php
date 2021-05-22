@@ -33,7 +33,7 @@ echo "<a href='categories.php?CatId={$cat_id}'>{$cat_title}</a>";
 
 <div class="navbar-links">
   <ul>
-    <li><a href="#">Home</a></li>
+    <li><a href="index.php">Home</a></li>
     <li><a href="#">Products</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Contact</a></li>
