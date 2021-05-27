@@ -18,7 +18,7 @@ include ("../resources/templates/front/header.php");
         }
       $query = "SELECT * FROM products WHERE product_id = ($the_product_id)";
       $the_product_query = mysqli_query ($connection,$query);
-      while ($row = mysqli_fetch_assoc($the_product_query)) {
+      while ($row = mysqli_fetch_assoc ($the_product_query)) {
       $product_id          = $row ['product_id'];
       $product_cat_id      = $row ['product_cat_id'];
       $product_title       = $row ['product_title'];
